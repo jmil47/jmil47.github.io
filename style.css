@@ -1,0 +1,68 @@
+body {
+    background-color: #514E4E;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #e7e7e7;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #161a27;
+    width: 300px;
+    height: 50px;
+    align-self: center;
+    border-radius: 7px;
+}
+
+
+.page {
+    display: flex;
+    height: 95vh;
+    gap: 10px;
+}
+
+.background_image {
+    border: solid 5px #161a27;
+    object-fit: cover;
+}
+
+.main {
+    flex: 3;
+    display: flex;
+    gap: 20px;
+    background-color: #b8b5b5;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.nav_bar{
+    color: #0d1823;
+    background-color: #496e94;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 95%;
+    text-align: center;
+
+}
+
+.nav_bar a {
+    text-decoration: none;
+}
+
+.nav_bar hr {
+    width: 200px;
+    border-color: #304e6d
+}
+
+a:link {
+    color:#161a27;
+}
+
+a:visited {
+    color:#161a27;
+}
