@@ -7,8 +7,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    background-color: #e7e7e7;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #eae8e8;
     font-family: 'Verdana';
     color: #161a27;
     width: 300px;
@@ -21,7 +22,7 @@ body {
 .page {
     display: flex;
     height: 95vh;
-    gap: 10px;
+    gap: 1%;
 }
 
 .background_image {
@@ -32,7 +33,6 @@ body {
 .main {
     flex: 3;
     display: flex;
-    gap: 20px;
     background-color: #b8b5b5;
     align-items: center;
     flex-direction: column;
@@ -47,7 +47,6 @@ body {
     justify-content: center;
     height: 95%;
     text-align: center;
-
 }
 
 .nav_bar a {
