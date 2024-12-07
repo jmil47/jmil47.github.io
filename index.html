@@ -16,19 +16,38 @@
                 </div>
             </header>
             <img src="IMG_1171.JPG" style="width: 80%; height: 50%;" class="background_image">
+
         </div>
     
-
+        
         <div class="nav_bar">
+            <div class="nav_button">
+                <button type="submit" style="color:white;" onclick="closeNav()"></button>
+            </div>
+
             <nav>
             <h3>Navigation</h3>
             <hr>
-            <a href="about.html"><h4>About</h4></a>
-            <a href="experience.html"><h4>Projects</h4></a>
-            <a href="blog.html"><h4>Blog</h4></a>
+                <div class="nav_links">
+                    <a href="about.html"><h4>About</h4></a>
+                    <a href="experience.html"><h4>Projects</h4></a>
+                    <a href="blog.html"><h4>Blog</h4></a>
+                </div>
             </nav>
 
         </div>
+
+        <script>
+            function openNav() {
+                document.getElementsByClassName("nav_bar").style.width = "0";
+                document.getElementsByClassName("main").style.width = "3";
+            }
+
+            function closeNav() {
+                document.getElementsByClassName("nav_bar").style.width = "0";
+                document.getElementsByClassName("main").style.width = "1";
+            }
+        </script>
     </div>
 
 </body>

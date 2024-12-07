@@ -12,8 +12,8 @@ body {
     background-color: #eae8e8;
     font-family: 'Verdana';
     color: #161a27;
-    width: 250px;
-    height: 50px;
+    width: 115%;
+    height: 75%;
     align-self: center;
     border-radius: 7px;
 }
@@ -41,7 +41,7 @@ body {
 
 .nav_bar{
     color: #0d1823;
-    background-color: #496e94;
+    background-color: #3a5c7f;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -49,8 +49,18 @@ body {
     text-align: center;
 }
 
+.nav_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .nav_bar a {
     text-decoration: none;
+}
+
+.nav_bar a :hover {
+    color: #bcc3c6;
 }
 
 .nav_bar hr {
