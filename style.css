@@ -68,6 +68,11 @@ body {
     border-color: #304e6d
 }
 
+.social {
+    align-self: flex-end;
+    justify-self: center;
+}
+
 a:link {
     color:#161a27;
 }
